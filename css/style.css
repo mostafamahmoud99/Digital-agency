@@ -1,0 +1,250 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+
+/* back to up */
+.btn-up{
+  background-color: #26b7a0;
+position: fixed;
+bottom: 40px;
+right: 40px;
+display: none;
+}
+
+
+/* ----------------Start header-------------------- */
+header {
+  height: 100vh;
+  background-image: url(../images/da-img-1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.navbar {
+  position: relative;
+  z-index: 999999999999999999;
+}
+.navbar-brand {
+  color: #fff !important;
+}
+.navbar .nav-link {
+  color: #fff;
+}
+.navbar button {
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.layer-content h1 {
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 1.5;
+}
+
+.layer-content .btn {
+  color: #fff;
+  border: 1px solid #fff;
+  transition: 0.4s;
+  margin-top: 10px;
+}
+.layer-content p {
+  padding: 10px 0;
+  font-weight: bold;
+  font-size: 25px;
+}
+.layer-content .btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+@media (max-width: 991px) {
+  .layer-content {
+    width: 100% !important;
+  }
+  .layer-content h1 {
+    font-size: 35px;
+  }
+  .layer-content p {
+    font-size: 17px;
+  }
+}
+/* ----------------End header------------------------- */
+
+/* ----------------Start Work-------------------------- */
+
+.work {
+  padding: 8rem 0;
+  background-color: #3d3f4c;
+}
+
+.work-item i {
+  color: #26b7a0;
+  font-size: 45px !important;
+}
+
+.work-item h4 {
+  padding: 10px 0 15px 0;
+  margin: 0;
+}
+.work-item p {
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 991px) {
+  .work .head {
+    width: 100% !important;
+  }
+}
+
+/* ----------------End Work-------------------------- */
+
+/* ----------------Start Services---------------------- */
+
+#service {
+  padding: 6rem 0;
+}
+
+.service-item i {
+  color: #26b7a0;
+  font-size: 40px;
+}
+.service-item h6 {
+  font-weight: bold;
+  color: #26b7a0;
+  padding: 15px 0;
+}
+
+/* ----------------End Services---------------------- */
+
+/* ----------------Start Portfolio-------------------- */
+#portfolio .progress-bar {
+  background-color: #26b7a0 !important;
+}
+
+/* ----------------End Portfolio----------------------- */
+
+/* ----------------Start Counter------------------- */
+
+.counter-section {
+  background-color: #3d3f4c;
+  padding: 6rem 0;
+}
+
+.counter-section .counter-item i {
+  font-size: 40px;
+}
+
+/* ----------------End Counter------------------- */
+
+/* ----------------Start Member------------------- */
+
+.members {
+  padding: 6rem 0;
+}
+
+.members .carousel-indicators {
+  bottom: -60px;
+}
+.members .carousel-indicators button {
+  background-color: #3d3f4c;
+}
+.members .carousel-indicators button.active {
+  background-color: #26b7a0;
+}
+
+/* ----------------End Member------------------------- */
+
+/* ------------------Start Gallery------------------------ */
+
+#gallery {
+  padding: 6rem 0;
+
+}
+
+/* -------------------End Gallery--------------------------- */
+
+/* -------------------Start Feature------------------------ */
+.feature {
+  padding: 6rem 0;
+}
+
+.feature img {
+  opacity: 0.5;
+}
+
+.feature img:hover {
+  opacity: 1;
+}
+
+@media (max-width: 991px) {
+  .feature .head {
+    width: 100% !important;
+  }
+}
+
+/* -------------------End Feature------------------------ */
+
+/* -------------------Start Brand------------------------- */
+.brand {
+  background-color: #3d3f4c;
+  padding: 6rem 0;
+}
+.brand .carousel-indicators {
+  bottom: -50px;
+}
+@media (max-width: 991px) {
+  .brand .carousel-inner .carousel-item .w-50 {
+    width: 100% !important;
+  }
+}
+/* -------------------End Brand------------------------- */
+
+/* -------------------Start Contact---------------------- */
+
+#contact {
+  padding: 6rem 1rem;
+  background-image: url("../images/staticmap.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#contact .btn{
+background-color: #26b7a0;
+color: #fff;
+}
+#contact input:focus{
+border-color: #26b7a0 !important;
+box-shadow: 0px 0px 10px rgba(38, 183, 160,.7) !important;
+}
+#contact textarea:focus{
+  border-color: #26b7a0 !important;
+  box-shadow: 0px 0px 10px rgba(38, 183, 160,.7) !important;
+  }
+
+/* --------------------End Contact------------------------ */
+
+
+/* --------------------Start Footer------------------------ */
+.footer{
+  padding: 6rem 0;
+  background-color: #3d3f4c;
+}
+.footer a{
+  color: #fff;
+}
+.linkDesign{
+  text-decoration: none ;
+  border-bottom: 1px dashed #fff;
+}
+
+/* --------------------End Footer----------------------------- */
